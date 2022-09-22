@@ -1,5 +1,8 @@
 package phoneList;
 
+import java.util.Scanner;
+import java.util.ArrayList;
+
 /*
  * This contains info for a single contact
  * 
@@ -19,6 +22,13 @@ package phoneList;
 
 
 
-public class Contact {
+public class Contact{
+    private String Name;
+    private int Number;
 
+    public Contact(String Name, int Number){
+        this.Name = Name;
+        this.Number = Number;
+    }
+    
 }
